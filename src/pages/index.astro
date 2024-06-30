@@ -1,0 +1,124 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import SectionOTD from "../components/SectionOTD.astro";
+import NewsDisplay from "../components/NewsDisplay.astro";
+import Footer from "../components/Footer.astro";
+
+import Header from "../components/Header.astro";
+---
+
+<Layout title="The Bugle.">
+	<Header />
+	<div class="grid grid-cols-4">
+		<div
+			class="col-span-3 min-h-full items-stretch border p-4 mr-5 hover:bg-black hover:bg-opacity-20"
+		>
+			<figure>
+				<img src="https://placehold.co/1200x350" alt="breaking news" />
+			</figure>
+			<Card title="title">
+				<p class="mt-4">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+					Quas facere rem repellendus fugit aut quam dolores
+					voluptates! Dicta dignissimos facere tenetur? Neque esse cum
+					eveniet quis nisi asperiores ullam ab. Sint alias ipsa,
+					aspernatur consectetur voluptatem beatae inventore
+					blanditiis sunt dicta labore, tenetur dolor dolores rerum
+					vel, neque ab praesentium. Odit tempore quae praesentium
+					voluptas sunt aliquid non ullam animi. Soluta tempora illo
+					aliquid incidunt laborum, laudantium cum quae debitis.
+					Voluptas soluta illum, nesciunt dignissimos necessitatibus
+					odio rem sapiente rerum consequuntur a laboriosam culpa, ea,
+					enim nam aspernatur eius. Earum? Minima molestiae dolorem
+					ipsum similique. Tenetur nulla quibusdam dignissimos quae,
+					reiciendis ut voluptatem sunt ad iure repellat repellendus
+					architecto explicabo hic porro commodi iste molestias sed
+					neque voluptas eaque quaerat. Saepe aperiam aliquam
+					similique optio modi ducimus delectus! Iure atque ea quasi
+					quo voluptatem corporis, voluptates repellat, corrupti
+					reiciendis rerum, nihil sapiente itaque. Hic facilis
+					nesciunt accusamus fugiat impedit qui! Consequatur facilis
+					deserunt repudiandae, quaerat itaque aperiam cum nihil eos
+					blanditiis ex deleniti recusandae ea praesentium voluptas
+					sapiente vel optio! Fugiat ex delectus voluptates veniam,
+					blanditiis sed harum consectetur dolorum!
+				</p>
+			</Card>
+		</div>
+		<aside class="col-span-1 max-w-s min-h-full border-none gap-0 mr-2">
+			<div
+				class="p-2 border border-b-zinc-950 hover:bg-black hover:bg-opacity-20"
+			>
+				<Card>
+					<h3>Title</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit.
+					</p>
+				</Card>
+			</div>
+			<div
+				class="p-2 border border-b-zinc-950 hover:bg-black hover:bg-opacity-20"
+			>
+				<Card>
+					<h3>Title</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit.
+					</p>
+				</Card>
+			</div>
+			<div
+				class="p-2 border border-b-zinc-950 hover:bg-black hover:bg-opacity-20"
+			>
+				<Card>
+					<h3>Title</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit.
+					</p>
+				</Card>
+			</div>
+			<div
+				class="p-2 border border-b-zinc-950 hover:bg-black hover:bg-opacity-20"
+			>
+				<Card>
+					<h3>Title</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit.
+					</p>
+				</Card>
+			</div>
+			<div
+				class="p-2 border border-b-zinc-950 hover:bg-black hover:bg-opacity-20"
+			>
+				<Card>
+					<h3>Title</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit.
+					</p>
+				</Card>
+			</div>
+			<div
+				class="p-2 border border-b-zinc-950 hover:bg-black hover:bg-opacity-20"
+			>
+				<Card>
+					<h3>Title</h3>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit.
+					</p>
+				</Card>
+			</div>
+		</aside>
+	</div>
+
+	<NewsDisplay />
+	<SectionOTD />
+	<Footer />
+</Layout>
+
+<style></style>
