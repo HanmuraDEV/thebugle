@@ -1,14 +1,19 @@
 ---
 interface Props {
-    title?: string;
+    post_title?: string;
+    title_size?: string;
+    image?: string;
 }
 
-const { title = "title" } = Astro.props;
+const { post_title, title_size = "text-5xl", image } = Astro.props;
 ---
 
-<a href="/News/">
-
-    <body>
+<a href={"/News/"}>
+    <body class="hover:bg-black hover:bg-opacity-20 mx-5 mt-4">
+        <figure>
+            {image ? <img src={image} alt="Card Image" /> : null}
+        </figure>
+        <h1 class={title_size}>{post_title ?? "Title"}</h1>
         <slot />
     </body>
 </a>
