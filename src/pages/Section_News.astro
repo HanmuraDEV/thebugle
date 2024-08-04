@@ -1,12 +1,60 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
-import Card from '../components/Card.astro'
+import Card from "../components/Card.astro";
+import SmallCard from "../components/SmallCard.astro";
 ---
+
 <Layout title="Sections">
-<Header/>
-
-<Card post_title="Hola estee s el titulo">
-
-</Card>
+    <Header />
+    <div class="mx-5 my-3 max-w-[1200px] relative">
+        <Card image="https://placehold.co/970x300">
+            <p class="my-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                autem ullam, amet, ratione id repudiandae doloribus earum libero
+                consequuntur eius qui minima ipsam! Quod at expedita soluta
+                voluptate modi accusantium. Laborum obcaecati rerum tempore
+                corrupti quo officia nulla harum. Fugiat doloremque tempore
+                laudantium eveniet. Necessitatibus modi porro ea tempore earum
+                suscipit nemo iste. Eveniet delectus quibusdam eligendi a
+                voluptatum mollitia. Praesentium consequatur fugit esse
+                perferendis suscipit ipsam maxime soluta, ex labore deserunt
+                voluptates dolore quos dicta explicabo est accusantium quas
+                possimus omnis similique, quidem totam. Illo, velit labore!
+                Assumenda, aliquam. Veniam pariatur quia perspiciatis quasi
+                ullam! Eaque tempora modi unde molestiae, ratione tenetur odit
+                in architecto sunt, nulla officia? Minus nulla cum eius sit et,
+                error illum expedita nemo soluta! Aliquam numquam labore
+                voluptatem fugit laboriosam magnam? Ipsum amet ipsam voluptate
+                nesciunt quidem, hic id doloribus ex obcaecati! Iusto fugit nam
+                beatae, cum id rerum cupiditate reprehenderit ullam dolor
+                doloribus? Hic tenetur est animi sapiente, labore assumenda
+                officia aut, voluptate saepe maiores fugit! Officia, vero
+                expedita quod numquam, eos ratione ipsum voluptates quo nam
+                animi, magni sunt provident! Deleniti, ab! Libero tempora illo,
+                nesciunt pariatur, ipsa id saepe ex nihil a quo labore
+                laudantium vitae, modi adipisci voluptatum! Dolore, hic
+                molestias soluta veniam obcaecati aliquam cupiditate culpa quis
+                magni quidem. Nemo saepe similique ratione, voluptatibus quas
+                reiciendis iure beatae debitis molestiae magni dolore possimus
+                unde repudiandae quae explicabo aspernatur! Minus deleniti natus
+                assumenda labore earum magni in eos quisquam quod. Fugiat
+                accusamus non ducimus dolore dolor similique recusandae, cum
+                temporibus quis quam expedita eos facilis adipisci culpa quos,
+                necessitatibus rerum placeat. Cupiditate corporis reprehenderit
+                laborum ipsa provident itaque delectus numquam. Minus voluptatem
+                explicabo a, quas dolorem delectus quidem placeat repellendus
+                odio hic quos obcaecati rem molestiae aperiam beatae amet libero
+                voluptas blanditiis illum ratione quo magnam! Mollitia
+                cupiditate ut aspernatur.
+            </p>
+        </Card>
+    </div>
+    <div class="my-5 mx-5">
+        <SmallCard image="https://placehold.co/300x150" />
+        <SmallCard image="https://placehold.co/300x150" />
+        <SmallCard image="https://placehold.co/300x150" />
+        <SmallCard image="https://placehold.co/300x150" />
+        <SmallCard image="https://placehold.co/300x150" />
+    </div>
 </Layout>

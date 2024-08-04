@@ -1,0 +1,23 @@
+---
+interface Props {
+    post_title?: string;
+    title_size?: string;
+    image?: string;
+}
+
+const { post_title = "Title", title_size = "text-3xl", image } = Astro.props;
+---
+
+<a href="/News" class="">
+    <div class="flex flex-row  my-4 p-2 hover:bg-black hover:bg-opacity-20">
+        {image ? <img src={image} alt="Card Image" /> : null}
+        <div class="flex flex-col mx-2 min-h-full place-content-start">
+            <h1 class={title_size}>{post_title}</h1>
+            <p class="pt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                mollitia aliquam repellendus quis minima id veritatis! Eveniet
+                dolor perspiciatis vitae?
+            </p>
+        </div>
+    </div>
+</a>
